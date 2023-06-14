@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "eventor_google_sync"
+version = "0.0.1"
+authors = [
+  { name="Lukas Johansson", email="lukas.g.johansson@hotmail.com" },
+]
+description = "Fetches events for an orienteering club from Eventor and creates a .ical endpoint"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/luckylukez/eventor_google_sync"
+# "Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
